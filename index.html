@@ -9,14 +9,23 @@
 </head>
 
 <body>
+	<header>
+		<nav>
+			<a href="index.html">Strona główna</a>
+			<a href="nauka-html.html">Nauka HTML</a>
+		</nav>
+	</header>
 	<main>
-		<header>
+		<header id="top">
 			<h1>Radek Pawliński - strona domowa</h1>
 		</header>
 		<section>
 			<h2>Kim jestem?</h2>
+			<img src="avatar.jpg" alt="avatar" width="100 px">
 			<p>
-				Grafik DTP, ale interesuje się programowaniem (python, js), oprogramowaniem otwartym, linuksem, tworzeniem stron www. Mam również drukarkę 3D, na której testuję moje projekty robione w Thinkercad, Blender 3d. 
+				Grafik DTP, ale interesuje się programowaniem (python, js), oprogramowaniem otwartym, linuksem,
+				tworzeniem stron www. Mam również drukarkę 3D, na której testuję moje projekty robione w Thinkercad,
+				Blender 3d. <a href="#szkolenie">Poczytaj więcej...</a>
 			</p>
 		</section>
 		<section>
@@ -25,28 +34,35 @@
 			<article>
 				<h3>Jak stworzyć prawidłowego HTML-a?</h3>
 				<p>Tworzenie zgodnego ze standardami HTML-a, to sztuka którą do perfekcji opanowało niewielu. Jeśli
-					chcesz się stać częścią tej grupy, musisz wykazać się otwartą głową i dużą ilością wolnego czasu…
+					chcesz się stać częścią tej <a href="http://google.com" target="_blank"
+						rel="noopener noreferrer">grupy</a>, musisz wykazać się otwartą głową i dużą ilością wolnego
+					czasu…
 				</p>
 			</article>
 
 			<article>
 				<h3>Czy nagrywanie szkolenia to prosta sprawa?</h3>
-				<p>Na początku myślałem, że całe szkolenie nagram w dwa tygodnie (o ja naiwny!). Samo planowanie rzeczy
+				<p>Na początku myślałem, że całe szkolenie nagram w dwa tygodnie (<strong>o ja naiwny!</strong>). Samo
+					planowanie rzeczy
 					zajęło dużo więcej! Na szczęście dzięki wsparciu bliskich i sporej motywacji udało mi się wytworzyć
-					schemat nagrywania, który każdego dnia przybliża mnie do skończenia pracy.
+					<em>schemat nagrywania</em>, który każdego dnia przybliża mnie do skończenia pracy.
 				</p>
 			</article>
-			<article>
+			<article id="szkolenie">
 				<h3>Kolejny artykół</h3>
-				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit sapiente voluptatem, sequi magni corporis voluptatum sint eius distinctio assumenda repellat esse perferendis tempora adipisci culpa cum eligendi fuga laboriosam unde soluta. Soluta quia architecto optio vel et voluptatum ea veniam ipsum eveniet voluptates, in nisi ratione maiores consequatur laborum? Tempora?</p>
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit sapiente voluptatem, sequi magni
+					corporis voluptatum sint eius distinctio assumenda repellat esse perferendis tempora adipisci culpa
+					cum eligendi fuga laboriosam unde soluta. Soluta quia architecto optio vel et voluptatum ea veniam
+					ipsum eveniet voluptates, in nisi ratione maiores consequatur laborum? Tempora?</p>
 			</article>
 		</section>
-		<footer>
-			<p>
-				Strona domowa Maćka Korsana, wszystkie treści są efektem tworzenia szkolenia WTF: Co ten frontend.
-			</p>
-		</footer>
 	</main>
+	<footer>
+		<p>
+			Strona domowa Maćka Korsana, wszystkie treści są efektem tworzenia szkolenia WTF: Co ten frontend. <a
+				href="#top">do góry ⬆️</a>
+		</p>
+	</footer>
 </body>
 
 </html>
