@@ -13,3 +13,28 @@ h2 {
 section {
 	background: #fefefeee;
 }
+
+.czerwony {
+	color: red;
+}
+
+#szkolenie {
+	background: yellow;
+}
+
+p {
+	color: blue;
+}
+
+a {
+	color: green;
+}
+
+section a {
+	color: orange;
+}
+
+.my-article p {
+	background: blue;
+	color: white;
+}
