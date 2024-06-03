@@ -22,19 +22,23 @@ section {
 	background: yellow;
 }
 
-p {
-	color: blue;
-}
-
 a {
 	color: green;
 }
 
 section a {
-	color: orange;
+	/* dziedziczy z .about */
+	color: inherit; 
+}
+.my-article {
+	color: hotpink;
 }
 
 .my-article p {
 	background: blue;
 	color: white;
+}
+
+.about {
+	color: #7c032a;
 }
